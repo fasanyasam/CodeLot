@@ -58,27 +58,29 @@ nav ul li :hover{
     transition: ease-in .4s;
 }
 main{
-    height: 95%;
+    height: 80%x;
     width: 100%;
-    background-color: cornsilk;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner.jpg);
-    background-size: cover;
     margin: auto;
 }
-
-main p{
-    height: 50%;
+#text{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 670px;
+}
+#text p{
+    height: 70%;
     width: 70%;
     color: white;
     margin: auto;
     text-align: center;
     line-height:1.5;
-    padding-top: 160px;
+    padding-top: 260px;
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
 }
 footer{
-    height: 50px;
+    height: 40px;
     width: 100%;
     color: white ;
     font-weight: bold;
@@ -93,7 +95,9 @@ footer{
     margin: auto;  
     background-color: lemonchiffon;
 }
-
+a{
+    text-decoration: none;
+}
 #cover {
     height: 50%;
     width: 100%;
@@ -108,7 +112,8 @@ footer{
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 40px;
-    
+    padding-bottom: 30px;
+    margin-top: 20px;
 }
 #scontent p{
     margin: auto;
@@ -117,6 +122,7 @@ footer{
     font-size: 16px;
     padding: 30px;
     padding-top: 10px;
+    
 }
 
 #scontent h3{
@@ -130,7 +136,7 @@ footer{
 #sleft{
     transition: ease 1s;
     transition-delay: .4s;
-    height: 80%;
+    height: 280px;
     color: rgb(0, 65, 65);
     margin: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -139,38 +145,19 @@ footer{
 #sright {
     transition: ease 1s;
     transition-delay: .4s;
-    height: 80%;
+    height: 280px;
     color: rgb(0, 65, 65);
     margin: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: burlywood solid 6px;
 }
-form {
+section{
+    height:800px;
+    width: 100%;
     margin: auto;
-    height: 500px;
-    width: 350px;
-    background-color: cornflowerblue;
-    padding: 30px;
-    padding-bottom: 70px;
-    border-radius: 20px;
-    border: white solid 5px;
 }
-form label{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px ;
-    font-weight: bold;
-}
-form h3{
-    color: white;
-    text-align: center;
-}
-input{
-    height: 30px;
-    width: 200px;
-    align-items: right;
-}
-button {
+
+button{
     text-align: center;
     padding: 10px;
     font-weight: bold;
@@ -230,7 +217,7 @@ button:hover{
 #content1{
     transition: ease 1s;
     transition-delay: .4s;
-    height: 180px;
+    height: 200px;
     color: rgb(0, 65, 65);
     margin: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -239,7 +226,7 @@ button:hover{
 #content2 {
     transition: ease 1s;
     transition-delay: .4s;
-    height: 180px;
+    height: 200px;
     color: rgb(0, 65, 65);
     margin: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -249,7 +236,7 @@ button:hover{
 #content3 {
     transition: ease 1s;
     transition-delay: .4s;
-    height: 180px;
+    height: 200px;
     color: rgb(0, 65, 65);
     margin: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -259,9 +246,163 @@ button:hover{
 #content4 {
     transition: ease 1s;
     transition-delay: .4s;
-    height: 180px;
+    height: 200px;
     color: rgb(0, 65, 65);
     margin: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: burlywood solid 6px;
 }
+.button{
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: transparent;
+    border:  rgb(0, 65, 65) 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color:  rgb(0, 65, 65);
+    margin-left:  30px;
+    margin-bottom: 10px;
+}
+hr {
+    border: burlywood 2px solid ;
+}
+/* #form{
+    height: 400px;
+    width: 300px;
+    background-color: burlywood;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: lemonchiffon;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 65, 65);
+    border: burlywood 2.2px solid;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: lemonchiffon;
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  #fbutton {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: burlywood;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid burlywood;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .number {
+    background-color: burlywood;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
